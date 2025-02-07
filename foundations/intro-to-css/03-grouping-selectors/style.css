@@ -1,0 +1,15 @@
+
+.size{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.day{
+    background-color: yellow;
+    color: black;
+}
+
+.night{
+    background-color: black;
+    color: white;
+}
