@@ -13,7 +13,7 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   justify-content: space-between;
-  padding: 10px;
+  padding: 8px;
 }
 
 .profile-image {
@@ -65,13 +65,13 @@ ul {
 }
 
 .left{
-  justify-content: start;
-  gap: 10px;
+  align-items: center;
+  gap: 16px;
   flex: none;
 }
 
 .right{
-  justify-content: end;
-  gap: 10px;
+  align-items: center;
+  gap: 16px;
   flex: none;
 }
