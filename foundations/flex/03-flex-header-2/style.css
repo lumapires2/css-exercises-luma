@@ -12,6 +12,8 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .profile-image {
@@ -41,8 +43,35 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  padding: 10px;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header,
+.left,
+.right,
+.links {
+  display: flex;
+}
+
+.links{
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left{
+  justify-content: start;
+  gap: 10px;
+  flex: none;
+}
+
+.right{
+  justify-content: end;
+  gap: 10px;
+  flex: none;
 }
