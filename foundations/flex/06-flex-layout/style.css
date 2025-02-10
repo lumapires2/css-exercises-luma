@@ -33,20 +33,18 @@ ul{
 
 a{
   text-decoration: none;
-  color: rgb(40, 38, 38);
+  color: rgb(18, 16, 16);
 }
 
 body,
 .header,
 .footer,
-.left-links,
-.right-links{
+ul{
   display: flex;
   flex-direction: row;
 }
 
-.left-links,
-.right-links{
+ul{
   gap: 20px;
   padding: 20px;
 }
@@ -70,9 +68,4 @@ body{
 .footer{
   margin-bottom: 20px;
   background-color:rgba(0, 0, 0, 0.145)
-}
-
-.left-links{
-  justify-content: space-around;
-  justify-content: space-around;
 }
